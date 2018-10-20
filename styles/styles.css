@@ -1,0 +1,12 @@
+div.triangle-form{
+	width: 25%;
+	margin-left: 24px;
+}
+
+.submit-btn{
+	width: 100%
+}
+
+.note{
+	display: none;
+}

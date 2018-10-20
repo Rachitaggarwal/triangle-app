@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Triangle app</title>
+		<link rel="stylesheet" href="http://d5wfroyti11sa.cloudfront.net/prod/client/ts-10.1.0.min.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+		<script src="http://d5wfroyti11sa.cloudfront.net/prod/client/ts-10.1.0.min.js"></script>
+		<script type="text/javascript" src="scripts/scripts.js"></script>
+		<meta name="viewport" content="width=device-width"/>
+	</head>
+
+	<body>
+		
+		<header data-ts="TopBar"></header>
+		<main data-ts="Main">
+			<div data-ts="MainContent" class="triangle-form">
+					
+				<form data-ts="Form">
+					<fieldset>
+						<label>
+							<span>Enter length of first side*:</span>
+							<input type="number" required id="side1" min="1" />
+						</label>
+						<label>
+							<span>Enter length of second side*:</span>
+							<input type="number" required id="side2" min="1" />
+						</label>
+						<label>
+							<span>Enter length of third side*:</span>
+							<input type="number" required id="side3" min="1" />
+						</label>
+						<button onclick="findTriangleType()" data-ts="Button" class="ts-primary submit-btn">
+							<span>OK</span>
+						</button>
+					</fieldset>
+				</form>
+
+				<div data-ts="Note" data-ts.closeable="true" class="note">
+					<p>This is the closeable inline Note!</p>
+				</div>
+
+
+			</div>
+		</main>
+	</body>
+
+</html>
